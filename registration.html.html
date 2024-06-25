@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Registeration </title>
+        <link rel="stylesheet" href="css/registeration.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="e:\My Projects\Mera's fashions\logo.png">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <p class="logo">Handmade your dreams</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a class="active" href="index.html.html">Home</a></li> 
+                        <li><a href="products.html.html">Products</a></li>
+                        <li><a href="reviews.html.html">Reviews</a></li>
+                        <li><a href="about.html.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search">
+                    <a href="#search"><button class="btn">Search</button></a>
+                </div>
+                <div class="register">
+                    <button class="reg">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">login</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username"required>
+                    <input type="password" class="input-field" placeholder="Password"required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+            </div>
+            <form id="register" class="input-group">
+                <input type="text" class="input-fields" placeholder="First Name"required>
+                <input type="text" class="input-fields" placeholder="Last Name"required>
+                <input type="text" class="input-fields" placeholder="Username"required>
+                <input type="password" class="input-fields" placeholder="password"required>
+                <input type="email" class="input-fields" placeholder="E-mail"required>
+                <input type="text" class="input-fields" placeholder="Phone Number"required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+
+            function register(){
+                x.style.left= "-900px"
+                y.style.left= "470px"
+                z.style.left= "110px"
+            }
+
+            function login(){
+                x.style.left= "470px"
+                y.style.left= "-900px"
+                z.style.left= "0px"
+            }
+        </script>
+    </body>

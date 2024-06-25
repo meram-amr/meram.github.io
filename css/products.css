@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background-color:rgb(32, 32, 32);
+    height:12%;
+}
+
+.icon{
+    width:250px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    color:rgb(173, 0, 179);
+    font-size:30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left:10px;
+    float:left;
+    padding-top:15px;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+    padding-left: 30px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul li{
+    list-style-type:none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:18px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    color:rgb(173, 0, 179);
+}
+
+
+ul li a.active{
+    color: rgb(173, 0, 179);
+}
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:200px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width:150px;
+    height:40px;
+    background:transparent;
+    border:1px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    border-right:none;
+    font-size:16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+.btn{
+    width:100px;
+    height:40px;
+    background:rgb(173, 0, 179);
+    border:2px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    font-size:15px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+body{
+    background-color: rgb(250, 192, 252);
+}
+
+.boxes1{
+    padding-left: 30px;
+    display: flex;
+}
+
+.boxes2{
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.box1{
+    width: 340px;
+    height: 450px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.box2{
+    width: 340px;
+    height: 450px;
+    background-color: white;
+    
+    margin-left: 70px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+span{
+    font-family: Apple Chancery, cursive;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.buy{
+    border: 0;
+    border-radius: 30px;
+    width: 80%;
+    background: linear-gradient(to right,#a800a0,#f584ff);
+    outline: none;
+    margin: 40px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.buy:hover{
+    background: linear-gradient(to left,#a800a0,#f584ff);
+}

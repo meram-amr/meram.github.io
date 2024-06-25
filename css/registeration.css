@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background-color:rgb(32, 32, 32);
+    height:12%;
+}
+
+.icon{
+    width:250px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    color:rgb(173, 0, 179);
+    font-size:30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left:10px;
+    float:left;
+    padding-top:15px;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+    padding-left: 30px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul li{
+    list-style-type:none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:18px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    color:rgb(173, 0, 179);
+}
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:200px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width:150px;
+    height:40px;
+    background:transparent;
+    border:1px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    border-right:none;
+    font-size:16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+.btn{
+    width:100px;
+    height:40px;
+    background:rgb(173, 0, 179);
+    border:2px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    font-size:15px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.register{
+    padding-right: 20px;
+    padding-top: 14px;
+}
+button.reg{
+    background-color: rgb(173, 0, 179) ;
+    border: none;
+    padding: 10px 32px ;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 1px;
+    cursor: pointer;
+    float: right;
+}
+
+.reg{
+    text-align: center;
+}
+.reg:hover{
+    box-shadow: 0 12px 16px 0 rgba(163, 0, 136, 0.24),0 17px 50px 0 rgba(163, 0, 136, 0.24);
+}
+
+.hero {
+    background-image: linear-gradient(to right,rgba(173, 0, 179),rgb(249, 180, 255));
+    padding: 0;
+    height: 575px;
+}
+
+.form-box {
+    width: 400px;
+    height: 575px;
+    background: white;
+    margin-left: 470px;  
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    margin-left: 90px;
+    padding-top: 10px;
+    top: 30px;
+    
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    margin-left: 1px;
+}
+
+#btn{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    background: linear-gradient(to right,#a800a0,#f584ff);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.icons{
+    margin: 20px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.icons i{
+    margin-left: 15px;
+}
+
+.input-group{
+    top: 280px;
+    position: absolute;
+    width: 330px;
+    transition: .5s;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.input-field{
+    width: 100%;
+    padding: 30px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.input-fields{
+    width: 100%;
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    
+}
+
+.submit-btn{
+    width: 90%;
+    padding: 20px 30px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right,#a800a0,#f584ff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.submit-btn:hover{
+    background: linear-gradient(to left,#a800a0,#f584ff);
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 30px;
+    position: absolute;
+}
+
+#login{
+    left: 470px;
+}
+
+#register{
+    left: 900px;
+}

@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background-color:rgb(32, 32, 32);
+    height:12%;
+}
+
+.icon{
+    width:250px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    color:rgb(173, 0, 179);
+    font-size:30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left:10px;
+    float:left;
+    padding-top:15px;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+    padding-left: 30px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul li{
+    list-style-type:none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:18px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    color:rgb(173, 0, 179);
+}
+ul li a.active{
+    color: rgb(173, 0, 179);
+}
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:200px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width:150px;
+    height:40px;
+    background:transparent;
+    border:1px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    border-right:none;
+    font-size:16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+.btn{
+    width:100px;
+    height:40px;
+    background:rgb(173, 0, 179);
+    border:2px solid rgb(173, 0, 179);
+    margin-top:13px;
+    color:white;
+    font-size:15px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.register{
+    padding-right: 20px;
+    padding-top: 14px;
+}
+button.reg{
+    background-color: rgb(173, 0, 179) ;
+    border: none;
+    padding: 10px 32px ;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    float: right;
+}
+
+.reg{
+    text-align: center;
+}
+.reg:hover{
+    box-shadow: 0 12px 16px 0 rgba(163, 0, 136, 0.24),0 17px 50px 0 rgba(163, 0, 136, 0.24);
+}
+
+body{
+    background-image: url("e:\My Projects\Mera's fashions\homepage_background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.wrapper{
+    max-width: 780px;
+    padding-left: 30px;
+    padding-top: 80px;
+    position: relative;
+    display: flex;
+}
+.wrapper i{
+    width: 46px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    line-height: 46px;
+}
+
+.wrapper i:first-child{
+    left: -1px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -1px;
+}
+
+.wrapper .carouse1{
+    white-space: nowrap;
+    font-size: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+.carouse1.dragging{
+    scroll-behavior: auto;
+    cursor: grab;
+}
+
+.carouse1.dragging img{
+    pointer-events: none;
+}
+
+.carouse1 img{
+    height: 300px;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.carouse1 img:first-child{
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+
+    .carouse1 img{
+        width: calc(100% / 2);
+    }
+}
+  
+@media screen and (max-width: 550px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+}
+    .carouse1 img{
+        width: calc(100%);
+}
+}
+
